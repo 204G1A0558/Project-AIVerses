@@ -1,0 +1,75 @@
+/* .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .game-content {
+    text-align: center;
+  }
+  
+  .game-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .balloon {
+    width: 200px;
+    background-color: blue;
+    margin-bottom: 20px;
+  }
+  
+  .game-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+   */
+   .game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(255, 255, 255); /* Set background color to white */
+  }
+  
+  .game-content {
+    text-align: center;
+    color: white; /* Set text color to black */
+  }
+  
+  .game-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .balloon {
+    width: 200px;
+    height: 300px; /* Adjust height to make it balloon shape */
+    background-color: white; /* Set balloon color to white */
+    margin-bottom: 20px;
+    border-radius: 50%; /* Make it round to resemble a balloon shape */
+    border: 3px solid white; /* Add black border */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Set text color to white */
+  }
+  
+  .game-button {
+    padding: 10px 20px;
+    background-color: white; /* Set button background color to black */
+    color: black; /* Set button text color to white */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
